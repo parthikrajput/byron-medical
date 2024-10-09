@@ -1,0 +1,209 @@
+@font-face {
+  font-family: "Ivy Mode";
+  src: url("../font/IvyMode-Regular.eot");
+  src: local("Ivy Mode Regular"), local("IvyMode-Regular"),
+    url("../font/IvyMode-Regular.eot?#iefix") format("embedded-opentype"),
+    url("../font/IvyMode-Regular.woff2") format("woff2"),
+    url("../font/IvyMode-Regular.woff") format("woff"),
+    url("../font/IvyMode-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Ivy Mode";
+  src: url("../font/IvyMode-LightItalic.eot");
+  src: local("Ivy Mode Light Italic"), local("IvyMode-LightItalic"),
+    url("../font/IvyMode-LightItalic.eot?#iefix") format("embedded-opentype"),
+    url("../font/IvyMode-LightItalic.woff2") format("woff2"),
+    url("../font/IvyMode-LightItalic.woff") format("woff"),
+    url("../font/IvyMode-LightItalic.ttf") format("truetype");
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Ivy Mode";
+  src: url("../font/IvyMode-SemiBoldItalic.eot");
+  src: local("Ivy Mode SemiBold Italic"), local("IvyMode-SemiBoldItalic"),
+    url("../font/IvyMode-SemiBoldItalic.eot?#iefix") format("embedded-opentype"),
+    url("../font/IvyMode-SemiBoldItalic.woff2") format("woff2"),
+    url("../font/IvyMode-SemiBoldItalic.woff") format("woff"),
+    url("../font/IvyMode-SemiBoldItalic.ttf") format("truetype");
+  font-weight: 600;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Ivy Mode";
+  src: url("../font/IvyMode-ThinItalic.eot");
+  src: local("Ivy Mode Thin Italic"), local("IvyMode-ThinItalic"),
+    url("../font/IvyMode-ThinItalic.eot?#iefix") format("embedded-opentype"),
+    url("../font/IvyMode-ThinItalic.woff2") format("woff2"),
+    url("../font/IvyMode-ThinItalic.woff") format("woff"),
+    url("../font/IvyMode-ThinItalic.ttf") format("truetype");
+  font-weight: 100;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Ivy Mode";
+  src: url("../font/IvyMode-Italic.eot");
+  src: local("Ivy Mode Italic"), local("IvyMode-Italic"),
+    url("../font/IvyMode-Italic.eot?#iefix") format("embedded-opentype"),
+    url("../font/IvyMode-Italic.woff2") format("woff2"),
+    url("../font/IvyMode-Italic.woff") format("woff"),
+    url("../font/IvyMode-Italic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Ivy Mode";
+  src: url("../font/IvyMode-BoldItalic.eot");
+  src: local("Ivy Mode Bold Italic"), local("IvyMode-BoldItalic"),
+    url("../font/IvyMode-BoldItalic.eot?#iefix") format("embedded-opentype"),
+    url("../font/IvyMode-BoldItalic.woff2") format("woff2"),
+    url("../font/IvyMode-BoldItalic.woff") format("woff"),
+    url("../font/IvyMode-BoldItalic.ttf") format("truetype");
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Ivy Mode";
+  src: url("../font/IvyMode-Bold.eot");
+  src: local("Ivy Mode Bold"), local("IvyMode-Bold"),
+    url("../font/IvyMode-Bold.eot?#iefix") format("embedded-opentype"),
+    url("../font/IvyMode-Bold.woff2") format("woff2"),
+    url("../font/IvyMode-Bold.woff") format("woff"),
+    url("../font/IvyMode-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Ivy Mode";
+  src: url("../font/IvyMode-Light.eot");
+  src: local("Ivy Mode Light"), local("IvyMode-Light"),
+    url("../font/IvyMode-Light.eot?#iefix") format("embedded-opentype"),
+    url("../font/IvyMode-Light.woff2") format("woff2"),
+    url("../font/IvyMode-Light.woff") format("woff"),
+    url("../font/IvyMode-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Ivy Mode";
+  src: url("../font/IvyMode-Thin.eot");
+  src: local("Ivy Mode Thin"), local("IvyMode-Thin"),
+    url("../font/IvyMode-Thin.eot?#iefix") format("embedded-opentype"),
+    url("../font/IvyMode-Thin.woff2") format("woff2"),
+    url("../font/IvyMode-Thin.woff") format("woff"),
+    url("../font/IvyMode-Thin.ttf") format("truetype");
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Ivy Mode";
+  src: url("../font/IvyMode-SemiBold.eot");
+  src: local("Ivy Mode SemiBold"), local("IvyMode-SemiBold"),
+    url("../font/IvyMode-SemiBold.eot?#iefix") format("embedded-opentype"),
+    url("../font/IvyMode-SemiBold.woff2") format("woff2"),
+    url("../font/IvyMode-SemiBold.woff") format("woff"),
+    url("../font/IvyMode-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Aileron";
+  src: url("../font/Aileron-Thin.woff2") format("woff2"),
+    url("../font/Aileron-Thin.woff") format("woff"),
+    url("../font/Aileron-Thin.ttf") format("truetype");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Aileron";
+  src: url("../font/Aileron-SemiBold.woff2") format("woff2"),
+    url("../font/Aileron-SemiBold.woff") format("woff"),
+    url("../font/Aileron-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Aileron";
+  src: url("../font/Aileron-Bold.woff2") format("woff2"),
+    url("../font/Aileron-Bold.woff") format("woff"),
+    url("../font/Aileron-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Aileron";
+  src: url("../font/Aileron-Heavy.woff2") format("woff2"),
+    url("../font/Aileron-Heavy.woff") format("woff"),
+    url("../font/Aileron-Heavy.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Aileron";
+  src: url("../font/Aileron-Italic.woff2") format("woff2"),
+    url("../font/Aileron-Italic.woff") format("woff"),
+    url("../font/Aileron-Italic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Aileron";
+  src: url("../font/Aileron-Regular.woff2") format("woff2"),
+    url("../font/Aileron-Regular.woff") format("woff"),
+    url("../font/Aileron-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Aileron";
+  src: url("../font/Aileron-Black.woff2") format("woff2"),
+    url("../font/Aileron-Black.woff") format("woff"),
+    url("../font/Aileron-Black.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Aileron";
+  src: url("../font/Aileron-UltraLight.woff2") format("woff2"),
+    url("../font/Aileron-UltraLight.woff") format("woff"),
+    url("../font/Aileron-UltraLight.ttf") format("truetype");
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Aileron";
+  src: url("../font/Aileron-Light.woff2") format("woff2"),
+    url("../font/Aileron-Light.woff") format("woff"),
+    url("../font/Aileron-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}

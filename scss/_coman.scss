@@ -1,0 +1,204 @@
+@use "./font";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+$white: #fff;
+$primary: #291462;
+$primary-light: #603cc0;
+$sec-color: #213721;
+$sec-1-color: #211444;
+$balck: #000;
+
+$primary-font: "Ivy Mode";
+$sec-font: "Aileron";
+
+body {
+  font-size: 16px;
+  font-weight: 300;
+  font-family: $sec-font;
+}
+.container {
+  max-width: 1760px;
+  padding: 0 15px;
+  width: 100%;
+  margin: 0 auto;
+}
+h1 {
+  font-size: 77px;
+  font-weight: 300;
+  font-family: $primary-font;
+  line-height: 84.7px;
+}
+h2 {
+  font-size: 56px;
+  font-weight: 300;
+  font-family: $primary-font;
+  line-height: 67.2px;
+  letter-spacing: 0.01em;
+}
+
+h4 {
+  font-size: 40px;
+  font-weight: 300;
+  line-height: 48px;
+  font-family: $primary-font;
+}
+h5 {
+  font-size: 30px;
+  font-weight: 300;
+  line-height: 36px;
+  font-family: $primary-font;
+}
+h6 {
+  font-size: 28px;
+  font-weight: 300;
+  line-height: 30.8px;
+  font-family: $primary-font;
+}
+
+p {
+  font-family: $sec-font;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 22.4px;
+}
+a {
+  text-decoration: none;
+  font-family: $sec-font;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22.4px;
+}
+li {
+  list-style: none;
+}
+img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+.py {
+  padding: 80px 0;
+}
+.btn {
+  border: 1px solid $sec-1-color;
+  padding: 0 32px;
+  font-family: $sec-font;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22.4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: fit-content;
+  margin: 0 auto;
+  gap: 10px;
+  height: 52px;
+  background-color: transparent;
+  transition: all 0.3s ease-in;
+  -webkit-transition: all 0.3s ease-in;
+  -moz-transition: all 0.3s ease-in;
+  -ms-transition: all 0.3s ease-in;
+  -o-transition: all 0.3s ease-in;
+  svg {
+    path {
+      transition: all 0.3s ease-in;
+      -webkit-transition: all 0.3s ease-in;
+      -moz-transition: all 0.3s ease-in;
+      -ms-transition: all 0.3s ease-in;
+      -o-transition: all 0.3s ease-in;
+    }
+  }
+  &:hover {
+    background-color: $sec-1-color;
+    color: $white;
+    svg {
+      path {
+        fill: $white;
+      }
+    }
+  }
+}
+#back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 50px;
+  height: 50px;
+  padding: 10px;
+  background-color: $primary-light;
+  color: #fff;
+  cursor: pointer;
+  line-height: 0;
+  border-radius: 50%;
+  border: 0;
+  transition: background-color 350ms ease-in-out;
+}
+
+@media (max-width: 1200px) {
+  h1 {
+    font-size: 65px;
+    line-height: 78.7px;
+  }
+  h2 {
+    font-size: 50px;
+  }
+}
+@media (max-width: 1024px) {
+  h1 {
+    font-size: 54px;
+    line-height: 70px;
+  }
+  h2 {
+    font-size: 42px;
+    line-height: 52px;
+  }
+  h4 {
+    font-size: 36px;
+    line-height: 42px;
+  }
+  h5 {
+    font-size: 26px;
+    line-height: 34px;
+  }
+  h6 {
+    font-size: 24px;
+    line-height: 28px;
+  }
+  .py {
+    padding: 50px 0;
+  }
+}
+@media (max-width: 768px) {
+  h4 {
+    font-size: 30px;
+    line-height: 38px;
+  }
+}
+@media (max-width: 576px) {
+  .py {
+    padding: 30px 0;
+  }
+  h1 {
+    font-size: 48px;
+    line-height: 60px;
+  }
+  h2 {
+    font-size: 36px;
+    line-height: 48px;
+  }
+  h5 {
+    font-size: 24px;
+    line-height: 30px;
+  }
+  h4 {
+    font-size: 28px;
+    line-height: 35px;
+  }
+  h6 {
+    font-size: 20px;
+    line-height: 28px;
+  }
+}

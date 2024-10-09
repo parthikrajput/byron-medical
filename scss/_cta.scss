@@ -1,0 +1,146 @@
+.cta-boxs {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 92px;
+  row-gap: 96px;
+  .cta-box {
+    width: calc(33.33% - 62px);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    position: relative;
+    &:first-child {
+      &::after {
+        display: none;
+      }
+    }
+    &:nth-child(4) {
+      &::after {
+        display: none;
+      }
+    }
+    &::after {
+      content: "";
+      height: 88px;
+      position: absolute;
+      border-left: 1px solid #d9d9d9;
+      top: 50%;
+      left: -9%;
+      transform: translateY(-50%);
+    }
+    .cta-img {
+      img {
+        width: 74px;
+        height: 63.14px;
+      }
+    }
+    .cta-text {
+      span {
+        font-family: $sec-font;
+        font-size: 20px;
+        font-weight: 300;
+        line-height: 28px;
+        color: $primary-light;
+        margin-bottom: 4px;
+      }
+      h5 {
+        text-align: center;
+        color: $sec-1-color;
+        margin-bottom: 16px;
+      }
+    }
+  }
+}
+
+.min-title {
+  padding: 40px 0;
+  background-color: $primary-light;
+  .min-title-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    h4 {
+      color: #f3f0fb;
+    }
+  }
+}
+@media (max-width: 1440px) {
+  .cta-boxs {
+    .cta-box {
+      &::after {
+        left: -12%;
+      }
+    }
+  }
+}
+@media (max-width: 1280px) {
+  .cta-boxs {
+    .cta-box {
+      &::after {
+        left: -15%;
+      }
+    }
+  }
+}
+@media (max-width: 1120px) {
+  .cta-boxs {
+    gap: 40px;
+    row-gap: 50px;
+    .cta-box {
+      width: calc(50% - 20px);
+      &:nth-child(3) {
+        &::after {
+          display: none;
+        }
+      }
+      &:nth-child(4) {
+        &::after {
+          display: block;
+        }
+      }
+      &:nth-child(5) {
+        &::after {
+          display: none;
+        }
+      }
+      &::after {
+        left: -3%;
+      }
+    }
+  }
+}
+@media (max-width: 1024px) {
+  .min-title {
+    .min-title-wrapper {
+      svg {
+        width: 40px;
+        height: auto;
+      }
+    }
+  }
+}
+@media (max-width: 576px) {
+  .cta-boxs {
+    row-gap: 35px;
+    flex-direction: column;
+    .cta-box {
+      width: 100%;
+      &::after {
+        display: none !important;
+      }
+    }
+  }
+  .min-title {
+    .min-title-wrapper {
+      flex-direction: column;
+      align-items: center;
+      gap: 30px;
+      svg {
+        width: 66px;
+        height: auto;
+      }
+    }
+  }
+}
